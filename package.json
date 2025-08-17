@@ -1,0 +1,32 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "Learn redis",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm src/strings.ts",
+    "build" : "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandeep-Petwal/redis-playground.git"
+  },
+  "keywords": [
+    "Redis",
+    "Playground"
+  ],
+  "author": "Sandeep Prasad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sandeep-Petwal/redis-playground/issues"
+  },
+  "homepage": "https://github.com/Sandeep-Petwal/redis-playground#readme",
+  "dependencies": {
+    "@types/node": "^24.3.0",
+    "ioredis": "^5.7.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
