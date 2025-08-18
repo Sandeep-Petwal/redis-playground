@@ -19,5 +19,7 @@ const init = async () => {
 try {
     init()
 } catch (error) {
-    console.log('error ::: ', error )
+    console.log('error ::: ', error)
+} finally {
+    client.quit();
 }

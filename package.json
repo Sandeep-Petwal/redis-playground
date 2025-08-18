@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node --loader ts-node/esm src/strings.ts",
-    "build" : "tsc",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +26,7 @@
   "dependencies": {
     "@types/node": "^24.3.0",
     "ioredis": "^5.7.0",
+    "redis": "^5.8.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.2"
   }
